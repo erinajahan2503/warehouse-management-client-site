@@ -1,4 +1,4 @@
-# WElcome to Car Haunter !!!!
+# Welcome to Car Haunter !!!!
 
 ### `car-haunter-client`
 
