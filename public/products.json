@@ -1,44 +1,44 @@
 [
     {
         "id": "1",
-        "name": "Start-Up",
-        "description": "Birthday less than 50 guest",
-        "price": 2000,
-        "img": "https://images.pexels.com/photos/1857157/pexels-photo-1857157.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        "name": "MAZDA CX-5 SX, V6, ABS, SUNROOF",
+        "description": "30/36 est mpg 18, Black front grille with chrome accent Cruise control Remote. keyless entry system Tilt 3-spoke steering wheel with audio controls",
+        "price": 25000,
+        "img": "http://www.chimpgroup.com/themeforest/automobile/assets/extra-images/listing-Grid-img1.jpg"
     },
     {
         "id": "2",
-        "name": "Economy",
-        "description": "Mehendi Events ",
-        "price": 3000,
-        "img": "https://images.pexels.com/photos/8751530/pexels-photo-8751530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "name": "Ferrari",
+        "description": "Ferrari SF90 Stradale, first series production PHEV. . ",
+        "price": 30000,
+        "img": "https://i.pinimg.com/originals/a5/ba/96/a5ba96d055a905d05f2440fb4275ec8d.jpg"
     },
     {
         "id": "3",
-        "name": "Standard",
-        "description": "Family  Wedding Events",
-        "price": 4000,
-        "img": "https://images.pexels.com/photos/4091281/pexels-photo-4091281.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        "name": "Ferrari",
+        "description": "The 296 GTB, Ferrari berlinetta with innovative aerodynamics",
+        "price": 40000,
+        "img": "https://images.pexels.com/photos/3849547/pexels-photo-3849547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id": "4",
-        "name": "Classic",
-        "description": "Classic Wedding Events",
-        "price": 4000,
-        "img": "https://images.pexels.com/photos/1024968/pexels-photo-1024968.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        "name": "Asphalt",
+        "description": "Asphalt 8 is leading the pack for mobile racing sims!",
+        "price": 50000,
+        "img": "https://images.pexels.com/photos/4665689/pexels-photo-4665689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id": "5",
-        "name": "Premium",
+        "name": "BMW 3 series",
         "description": "Videography",
         "price": 5000,
         "img": "https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id": "6",
-        "name": "SIgnature",
-        "description": "Cinematography",
-        "price": 8000,
-        "img": "https://images.pexels.com/photos/6685157/pexels-photo-6685157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "name": "Mercedes",
+        "description": "2021 Mercedes-AMG® GT Black Series Coupe: 0 to 60 in 3.1 seconds, Top speed of 202 mph. 2014 Mercedes-AMG® SLS Black Series:",
+        "price": 80000,
+        "img": "https://images.pexels.com/photos/2365572/pexels-photo-2365572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
 ]
