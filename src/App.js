@@ -4,6 +4,8 @@ import './App.css';
 import About from './pages/About/About';
 import Blog from './pages/Blog/Blog';
 import Home from './pages/Home/Home/Home';
+import InventoryItems from './pages/Home/InventoryItems/InventoryItems';
+import ItemDetail from './pages/ItemDetail/ItemDetail';
 import Login from './pages/Login/Login/Login';
 import Register from './pages/Login/Register/Register';
 import Header from './pages/Shared/Header/Header';
@@ -16,12 +18,13 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
+        {/* <Route path='/item/:itemId' element={<ItemDetail></ItemDetail>}></Route> */}
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
-        {/* <Route path='/login' element={<Login></Login>}></Route>
-        <Route path='/register' element={<Register></Register>}></Route> */}
+        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
-
+        <Route path='item' element={<InventoryItems></InventoryItems>}></Route>
       </Routes>
       <ToastContainer />
     </div>

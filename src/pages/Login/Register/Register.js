@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
+
 import './Register.css';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import Loading from '../../Shared/Loading/Loading';
+import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 
 const Register = () => {
     const [agree, setAgree] = useState(false);
@@ -13,7 +14,7 @@ const Register = () => {
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
     const [updateProfile, updating, updateError] = useUpdateProfile(auth);
 
     const navigate = useNavigate();
@@ -22,12 +23,12 @@ const Register = () => {
         navigate('/login');
     }
 
-    if(loading || updating){
+    if (loading || updating) {
         return <Loading></Loading>
     }
 
     if (user) {
-     console.log('user', user);  
+        console.log('user', user);
     }
 
     const handleRegister = async (event) => {
@@ -40,7 +41,7 @@ const Register = () => {
         await createUserWithEmailAndPassword(email, password);
         await updateProfile({ displayName: name });
         console.log('Updated profile');
-        navigate('/home');
+        navigate('/');
     }
 
     return (
@@ -54,7 +55,7 @@ const Register = () => {
                 <input type="password" name="password" id="" placeholder='Password' required />
                 <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="terms" />
                 {/* <label className={agree ? 'ps-2': 'ps-2 text-danger'} htmlFor="terms">Accept Genius Car Terms and Conditions</label> */}
-                <label className={`ps-2 ${agree ? '' : 'text-danger'}`} htmlFor="terms">Accept Genius Car Terms and Conditions</label>
+                <label className={`ps-2 ${agree ? '' : 'text-danger'}`} htmlFor="terms">Accept All Terms and Conditions</label>
                 <input
                     disabled={!agree}
                     className='w-50 mx-auto btn btn-primary mt-2'
